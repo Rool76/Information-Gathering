@@ -34,7 +34,7 @@
 [اضغط هنا لفتح الملف](WHOIS-and-DNS.md)
 
 ---
-
+### 🔹 Network Discovery
 ## 🎯 Objective
 Identify the Metasploitable 2 machine within the local network using basic discovery tools.
 
