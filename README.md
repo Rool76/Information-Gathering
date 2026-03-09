@@ -1,3 +1,103 @@
+
+
+
+# Information Gathering – Metasploitable 2
+
+## 📁 Project Sections
+
+### 🔹 Network Discovery
+تحليل اكتشاف الجهاز داخل الشبكة  
+[اضغط هنا لفتح الملف](Network-Discovery.md)
+
+---
+
+### 🔹 Port Enumeration
+تحليل المنافذ المفتوحة والخدمات  
+[اضغط هنا لفتح الملف](Port-Enumeration.md)
+
+---
+
+### 🔹 Service Analysis
+تحليل الخدمات الموجودة على الجهاز  
+[اضغط هنا لفتح الملف](Service-Analysis.md)
+
+---
+
+### 🔹 Banner Grabbing
+جمع معلومات الإصدارات من الخدمات  
+[اضغط هنا لفتح الملف](Banner-Grabbing.md)
+
+---
+
+### 🔹 WHOIS & DNS Analysis
+تحليل معلومات النطاق وسجلات DNS  
+[اضغط هنا لفتح الملف](WHOIS-and-DNS.md)
+
+---
+
+## 🎯 Objective
+Identify the Metasploitable 2 machine within the local network using basic discovery tools.
+
+---
+
+## 🛠️ Tools Used
+- Netdiscover
+- Nmap (Ping Scan)
+
+---
+
+## 🧭 Steps (General & Safe)
+1. Run a network discovery tool to detect active hosts.
+2. Identify the IP address assigned to Metasploitable 2.
+3. Confirm the machine is reachable within the same subnet.
+
+---
+
+## 📊 Results
+- A Linux-based host was detected.
+- It appeared with an IP address similar to:
+
+---
+
+## 🎯 Objective
+Identify open ports and active services running on the Metasploitable 2 machine.
+
+---
+
+## 🛠️ Tools Used
+- Nmap (Port Scanning)
+
+---
+
+## 🧭 Steps (Safe & High-Level)
+1. Perform a general port scan.
+2. Document all open ports.
+3. Identify the protocols used (TCP/UDP).
+
+---
+
+## 📊 Results (Common in Metasploitable 2)
+- Port 21: FTP
+- Port 22: SSH
+- Port 23: Telnet
+- Port 25: SMTP
+- Port 80: HTTP
+- Database-related ports
+- Legacy service ports
+
+---
+
+## 🧠 Analysis
+- The large number of open ports indicates a training environment.
+- Many services are intentionally outdated for learning purposes.
+
+
+
+
+
+
+
+
 ## 🎯 Objective
 Identify the Metasploitable 2 machine within the local network using basic discovery tools.
 
