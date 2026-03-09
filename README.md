@@ -34,7 +34,7 @@
 [اضغط هنا لفتح الملف](WHOIS-and-DNS.md)
 
 ---
-
+Network Discovery
 ## 🎯 Objective
 Identify the Metasploitable 2 machine within the local network using basic discovery tools.
 
@@ -58,7 +58,7 @@ Identify the Metasploitable 2 machine within the local network using basic disco
 - It appeared with an IP address similar to:
 
 ---
-
+Port Enumeration
 ## 🎯 Objective
 Identify open ports and active services running on the Metasploitable 2 machine.
 
@@ -96,7 +96,7 @@ Identify open ports and active services running on the Metasploitable 2 machine.
 
 
 
-
+Service Analysis
 
 ## 🎯 Objective
 Identify the Metasploitable 2 machine within the local network using basic discovery tools.
@@ -151,7 +151,7 @@ Identify open ports and active services running on the Metasploitable 2 machine.
 ## 🧠 Analysis
 - The large number of open ports indicates a training environment.
 - Many services are intentionally outdated for learning purposes
-
+WHOIS & DNS Analysis
 - ## 🎯 Objective
 Analyze the services running on open ports and understand their security implications.
 
@@ -175,7 +175,9 @@ Analyze the services running on open ports and understand their security implica
 ## 🧠 Analysis
 - Legacy services like Telnet highlight common security weaknesses.
 - Service analysis helps understand potential risks in real environments.
+- Banner Grabbing
 - # 🎯 Objective
+- 
 Collect general banner information from services to identify software versions.
 
 ---
